@@ -1,8 +1,8 @@
 {
-  "name": "Hello World",
+  "name": "Hello World!",
   "version": "1.0",
   "description": "My first Chrome extension.",
   "browser_action": {
-   "default_icon": "music.png"
+    "default_icon": “music.png"
   }
 }
