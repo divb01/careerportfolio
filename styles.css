@@ -1,0 +1,59 @@
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 0em 0;
+    padding: 0;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    background-color: transparent;
+    /*text-decoration: underline;*/
+}
+
+a.target:hover {
+    color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fa-github:hover {
+    color: brown;
+}
+
+.fa-linkedin:hover {
+    color: brown;
+}
+
+.fa-instagram:hover {
+    color: brown;
+}
+
+.fa-wordpress:hover {
+    color: brown;
+}
+
+.fa-youtube-play:hover {
+    color: brown;
+}
+
+.fa-file-text:hover {
+    color: brown;
+}
