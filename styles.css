@@ -1,4 +1,15 @@
 
+
+/* code for left box */
+/* div { */
+    background-color: #e8edf3;
+    width: 300px;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px;
+}
+
+/* code for icons */
 hr {
     display: block;
     height: 1px;
