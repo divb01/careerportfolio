@@ -1,8 +1,7 @@
 
 
 
-function SocialMedia() {
-alert("Follow Me On Instagram @_divb")
+
 }
 
 function surprise() {
