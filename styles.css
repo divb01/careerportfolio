@@ -1,3 +1,11 @@
+mi {
+  list-style-type: none;
+}
+
+.fa-github:hover {
+    color: brown;
+}
+
 /*
 #containerimg {
   height: 100%;
