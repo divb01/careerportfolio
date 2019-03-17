@@ -9,116 +9,345 @@
   <script src="functions.js"></script>
   <title>&hearts; Divya Bhookya</title>
   <link href="styles.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  body {
-      font-family: "Lato", Century Gothic;
-  }
-
-  .sidenav {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #e8edf3;
-      overflow-x: hidden;
-      transition: 0.5s;
-      padding-top: 60px;
-  }
-
-  .sidenav a {
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #b56969;
-      display: block;
-      transition: 0.3s;
-  }
-
-  .sidenav a:hover {
-      color: #22264b;
-  }
-
-  .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px;
-  }
-
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  </style>
-  </head>
-  <body>
-
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html">Home</a>
-    <a href="a_Facts_about_me.html">Who I am</a>
-    <a href="a_places_ive_been.html">Places I've been</a>
-    <a href="a_favetunes.html">My Favorite Music</a>
-    <a href="a_mygoals.html">My Goals</a>
-    <a href="#">My Creations</a>
-    <a href="#">My Old Website</a>
-  </div>
-
-  <span style="font-size:30px;cursor:pointer; color: #22264b" onclick="openNav()">&#9776; Open</span>
-
-  <script>
-  function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-  }
-
-  function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-  }
-  </script>
-
-
-<!-- <div class="dropdown"> -->
-<!-- <button class="dropbtn">Dropdown</button> -->
-<!-- <div class="dropdown-content"> -->
-
-
-
-
-
+ <!-- Index -->
 </head>
 <body style="background-color:#e8edf3;">
-
-
-
-
 <h1 style="text-align:center;color:#22264b;"> Divya Bhookya
 <h2 style="text-align:center;color:#22264b"> Welcome!
-
 <p style="text-align:center; color:#ff9969; font-size:25px;">
 <br> <img src="divgif.gif" style="width:300px;height:400px;">
 
   <!--<br> <button id="alertWelcome" onclick="surprise()" style="color:#b56969">You Won't Regret Clicking Me!</button> -->
 
 
-<br>
+<br><br><br>
 
 <!-- http://fontawesome.io/icons/ -->
 <!-- <div> -->
-   <li align="center">
+<style>
+li {
+  float: right;
+}
+</style>
+   <!-- <li align="center"> -->
+
+     <a class="active" <a href="index.html">Home / </a>
+     <a href="a_Facts_about_me.html">About / </a>
+     <a href="a_places_ive_been.html">Places I've Visited / </a>
+     <a href="a_favetunes.html">My Favorite Music / </a>
+     <a href="a_mygoals.html">My Future Plan  </a>
+     <!-- <a href="#">My Creations / </a> -->
+     <!-- <a href="#">My Old Website</a> -->
+<br><br>
      <a href="https://github.com/divb01" target="_blank"><i class="fa fa-github" style="font-size:24px; padding:5px"></i></a>
      <a href="https://instagram.com/divb_" target="_blank"><i class="fa fa-instagram" style="font-size:24px; padding:5px"></i></a>
-      <a href="https://open.spotify.com/collection/playlists" target="_blank"><i class="fa fa-spotify" style="font-size:24px; padding:5px"></i></a>
-     <!-- <a href="files/resume.pdf" target="_blank"><i class="fa fa-file-text" style="font-size:24px; padding:5px"></i></a> -->
-   </li>
- <!-- </div> -->
-<br>
+     <a href="https://open.spotify.com/collection/playlists" target="_blank"><i class="fa fa-spotify" style="font-size:24px; padding:5px"></i></a>
+     <a href="offresume.png" target="_blank"><i class="fa fa-file-text" style="font-size:24px; padding:5px"></i></a>
+
+
+<!-- parallax value=""> -->
 
 </body>
+</html>
+
+
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e8edf3;
+}
+
+li {
+
+  float:left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #b56969;
+}
+</style>
+</head>
+<style>
+.parallax {
+
+  background-image: url(nyc.png);
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+
+<div class="parallax"></div>
+
+
+  <!-- <title> &hearts; About Me</title> -->
+
+<div style="height:740px;background-color:#e8edf3;font-size:36px">
+<body style="background-color:#e8edf3;">
+<h1 style="text-align:center;color:#22264b"> Hi, I'm Divya Bhookya.
+<p style="text-align:center;color:#b56969; font-size:20px;"> &hearts; I am a junior at Normal Community High School.
+    <br> I have two brothers and a dog.
+    <br> I love traveling to different places and meeting people.
+    <br> I play tennis, and I love photography.
+
+  <br>
+      <img src="2chicago.png" style="width:300px;height:400px;">
+      <img src="lakeview.png" style="width:450px;height:300px;">
+      <img src="bean.png" style="width:450px;height:300px;">
+
+<br>
+      <!-- http://fontawesome.io/icons/ -->
+      <!-- <div> -->
+      <a href="https://github.com/divb01" target="_blank"><i class="fa fa-github" style="font-size:24px; padding:5px"></i></a>
+      <a href="https://instagram.com/divb_" target="_blank"><i class="fa fa-instagram" style="font-size:24px; padding:5px"></i></a>
+      <a href="https://open.spotify.com/collection/playlists" target="_blank"><i class="fa fa-spotify" style="font-size:24px; padding:5px"></i></a>
+      <a href="offresume.png" target="_blank"><i class="fa fa-file-text" style="font-size:24px; padding:5px"></i></a>
+
+         </li>
+       <!-- </div> -->
+
+  </body>
+</div>
+
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e8edf3;
+}
+
+li {
+
+  float:left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #b56969;
+}
+</style>
+</head>
+<style>
+.parallax {
+
+  background-image: url(nyc.png);
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="parallax"></div>
+
+
+<div style="height:100%;background-color:#e8edf3;font-size:36px">
+
+    <body style="background-color:#e8edf3;">
+  <title> &hearts; Places I've Been </title>
+  <h1 style="text-align:center;color:#22264b"> Where have I Been? </h1>
+      <p1 style="text-align:center;color:#b56969; font-size:25px;"> &hearts;  I have been to 24 states in the United States, but my goal is all 50!
+        <br>Here is a picture of me in each state that I have been to:
+        <p2 style="text-align:center;color:#22264b; font-size:18px>
+
+        /* <br>California - <br><img src="cali.png" style="width:400px;height:300px;">
+        <!-- <br>Alabama - -->
+        <!-- <br>Alaska - -->
+        <!-- <br>Arizona - -->
+        <!-- <br>Arkansas - -->
+        <br>California <br> <img src="cali.png" style ="width:350px; height:300px">
+        <br>Colorado -
+        <br>Connecticut -
+        <br>Delaware -
+        <br>Florida - <br><img src="florida.JPG" style="width:300px;height:350px;">
+        <br>Georgia -
+        <!-- <br>Hawaii - -->
+        <!-- <br>Idaho - -->
+        <br>Illinois  <br><img src="divinchicago.png" style="width:300px;height:320px;">
+        <br>Indiana -
+        <!-- <br>Iowa - -->
+        <br>Kansas -
+        <!-- <br>Kentucky - -->
+        <!-- <br>Louisiana - -->
+        <!-- <br>Maine - -->
+        <br>Maryland -
+        <br>Massachusetts -
+        <!-- <br>Michigan - -->
+        <!-- <br>Minnesota - -->
+        <!-- <br>Mississippi - -->
+        <br>Missouri -
+        <!-- <br>Montana - -->
+        <!-- <br>Nebraska - -->
+        <br>Nevada -
+        <br>New Hampshire - I was born here
+        <br>New Jersey -
+        <!-- <br>New Mexico - -->
+        <br>New York  <br><img src="NYinredDress.jpg" style="width:300px;height:400px;">
+        <!-- <br>North Carolina - -->
+        <!-- <br>North Dakota - -->
+        <br>Ohio <br><img src="ohiossv.png" style="width:350px;height:300px;">
+        <!-- <br>Oklahoma - -->
+        <!-- <br>Oregon - -->
+        <br>Pennsylvania -
+        <!-- <br>Rhode Island - -->
+        <!-- <br>South Carolina - -->
+        <!-- <br>South Dakota - -->
+        <br>Tennessee -
+        <br>Texas -
+        <!-- <br>Utah - -->
+        <!-- <br>Vermont - -->
+        <br>Virginia -
+        <!-- <br>Washington - -->
+        <br>West Virginia -
+        <br>Wisconsin -
+        <!-- <br>Wyoming - -->
+<br>
+
+  </p2>
+
+  <br>
+        <!-- http://fontawesome.io/icons/ -->
+        <!-- <div> -->
+        <a href="https://github.com/divb01" target="_blank"><i class="fa fa-github" style="font-size:24px; padding:5px"></i></a>
+        <a href="https://instagram.com/divb_" target="_blank"><i class="fa fa-instagram" style="font-size:24px; padding:5px"></i></a>
+        <a href="https://open.spotify.com/collection/playlists" target="_blank"><i class="fa fa-spotify" style="font-size:24px; padding:5px"></i></a>
+        <a href="offresume.png" target="_blank"><i class="fa fa-file-text" style="font-size:24px; padding:5px"></i></a>
+
+        <br><br>
+
+     </li>
+  <br>
+  </div>
+  </body>
+
+
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e8edf3;
+}
+
+li {
+
+  float:left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #b56969;
+}
+</style>
+</head>
+<style>
+.parallax {
+
+  background-image: url(nyc.png);
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+
+<div class="parallax"></div>
+
+
+<div style="height:1000px;background-color:#e8edf3;font-size:36px">
+
+  <body style="background-color:#e8edf3;">
+
+
+
+
+  <h1 style="text-align:center;color:#22264b;">My Favorite Songs </h1>
+
+  <p style="text-align:center; color:#ff9969; font-size:25px;">
+    <p style="text-align:center;color:#22264b; font-size:20px;">
+      <a href="https://open.spotify.com/collection/playlists" target="_blank"> Here is a link to my Spotify!</a><br>
+      <a href="https://open.spotify.com/playlist/5MQa4eToyCNexlLfhekc2X" target="_blank"> Recent Favorites</a>
+      <br> &hearts; Dreamcatcher by Metro Boomin and Swae Lee
+      <br> &hearts; Missin You Crazy by Russ
+      <br> &hearts; Hit This Hard by Post Malone
+
+      <br>
+            <!-- http://fontawesome.io/icons/ -->
+            <!-- <div> -->
+            <a href="https://github.com/divb01" target="_blank"><i class="fa fa-github" style="font-size:24px; padding:5px"></i></a>
+            <a href="https://instagram.com/divb_" target="_blank"><i class="fa fa-instagram" style="font-size:24px; padding:5px"></i></a>
+            <a href="https://open.spotify.com/collection/playlists" target="_blank"><i class="fa fa-spotify" style="font-size:24px; padding:5px"></i></a>
+            <a href="offresume.png" target="_blank"><i class="fa fa-file-text" style="font-size:24px; padding:5px"></i></a>
+
+            <br><br>
+
+         </li>
+      <br>
+      </div>
+      </body>
+
 </html>
